@@ -1,0 +1,150 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+h2 {
+    margin: 0%;
+}
+
+.elemento {
+    border: solid;
+    width: 5%;
+    height: 8vh;
+}
+
+.nao-metal {
+    background-color: #b3d76a;
+    
+}
+
+.nao-metal p{
+    color: #b3d76a;
+    
+}
+
+.referencia-actinideo {
+    position: relative;
+    font-size: 2vh;
+}
+
+.referencia-actinideo::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 235%;
+    border-left: 2px solid black;
+    left: 25%;
+    top: 7%;
+}
+
+.referencia-actinideo::before {
+    content: "";
+    position: absolute;
+    width: 68px;
+    height: 20%;
+    border-top: 2px solid black;
+    left: 25%;
+    top: 240%;
+}
+
+.elemento_metais_alcalinos {
+    background-color: #f5c95e;
+}
+
+#naoMetaisLegenda {
+    color: #b3d76a;  
+}
+
+
+.elementos_metais_acalinos_terrosos {
+    background-color: #efe55b;
+}
+
+#alcalinosterrososLegenda {
+    color: #efe55b;
+}
+#AlcalinosLegenda {
+    color: #efe55b;
+}
+
+.elemento_Metais_de_transição {
+    background-color: #f2b0b0;
+}
+
+#MetaisTransiçãoLegenda {
+    color: #f2b0b0;
+}
+.elemento_Outros_metais {
+    background-color: #a2c7d3
+}
+
+#OutrosMetaisLegenda {
+    color: #a2c7d3;
+}
+
+.elemento_Semimetais {
+    background-color: #66c4bc
+}
+#SemimetaisLegenda{
+    color: #66c4bc;
+}
+
+.elemento_Halogênios {
+    background-color: #59a7e5;
+}
+#HalogeniosLegenda {
+    color: #59a7e5;
+}
+
+.elemento_Gases_nobres {
+    background-color: #2793e0
+}
+
+#GasesNobresLegenda {
+    color: #2793e0;
+}
+.elemento_Lantanídeos {
+    background-color: #97d7e1;
+}
+
+#LantanideosLegenda {
+
+    color: #97d7e1;
+}
+.elemento_Actinídios {
+    background-color: #e2bdd8;
+}
+
+#ActinidiosLegenda {
+    color: #e2bdd8;
+}
+
+
+.referencia-lantanideo {
+    position: relative;
+    font-size: 2vh;
+}
+
+
+.referencia-lantanideo::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 235%;
+    border-left: 2px solid black;
+    left: 40%;
+    top: 20%;
+
+}
+
+
+.referencia-lantanideo::before {
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 20%;
+    border-top: 2px solid black;
+    left: 40%;
+    top: 255%;
+}
