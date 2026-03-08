@@ -17,10 +17,10 @@ h2 {
     background-color: #b3d76a;
     
 }
-
-.nao-metal p{
-    color: #b3d76a;
-    
+.nao-metal:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    border: 6px solid black;
 }
 
 .referencia-actinideo {
@@ -51,6 +51,11 @@ h2 {
 .elemento_metais_alcalinos {
     background-color: #f5c95e;
 }
+.elemento_metais_alcalinos:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    border: 6px solid black;
+}
 
 #naoMetaisLegenda {
     color: #b3d76a;  
@@ -60,9 +65,14 @@ h2 {
 .elementos_metais_acalinos_terrosos {
     background-color: #efe55b;
 }
+.elementos_metais_acalinos_terrosos:hover{
+            transform: scale(1.1);
+            transition: 0.3s;
+            border: 6px solid black;
+}
 
 #alcalinosterrososLegenda {
-    color: #efe55b;
+    color: #f5c95e;
 }
 #AlcalinosLegenda {
     color: #efe55b;
@@ -75,12 +85,23 @@ h2 {
 #MetaisTransiçãoLegenda {
     color: #f2b0b0;
 }
+.elemento_Metais_de_transição:hover { 
+            transform: scale(1.1);
+            transition: 0.3s;
+            border: 6px solid black;
+        
+}
 .elemento_Outros_metais {
     background-color: #a2c7d3
 }
 
 #OutrosMetaisLegenda {
     color: #a2c7d3;
+}
+.elemento_Outros_metais:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    border: 6px solid black;
 }
 
 .elemento_Semimetais {
@@ -89,12 +110,22 @@ h2 {
 #SemimetaisLegenda{
     color: #66c4bc;
 }
+.elemento_Semimetais:hover {
+    transform: scale(1.1);
+        transition: 0.3s;
+        border: 6px solid black;
+}
 
 .elemento_Halogênios {
     background-color: #59a7e5;
 }
 #HalogeniosLegenda {
     color: #59a7e5;
+}
+.elemento_Halogênios:hover {
+    transform: scale(1.1);
+        transition: 0.3s;
+        border: 6px solid black;
 }
 
 .elemento_Gases_nobres {
@@ -104,6 +135,12 @@ h2 {
 #GasesNobresLegenda {
     color: #2793e0;
 }
+.elemento_Gases_nobres:hover{
+    transform: scale(1.1);
+        transition: 0.3s;
+        border: 6px solid black;
+}
+
 .elemento_Lantanídeos {
     background-color: #97d7e1;
 }
@@ -112,6 +149,11 @@ h2 {
 
     color: #97d7e1;
 }
+.elemento_Lantanídeos:hover{
+    transform: scale(1.1);
+        transition: 0.3s;
+        border: 6px solid black;
+}
 .elemento_Actinídios {
     background-color: #e2bdd8;
 }
@@ -119,7 +161,11 @@ h2 {
 #ActinidiosLegenda {
     color: #e2bdd8;
 }
-
+.elemento_Actinídios:hover{
+    transform: scale(1.1);
+        transition: 0.3s;
+        border: 6px solid black;
+}
 
 .referencia-lantanideo {
     position: relative;
@@ -148,3 +194,7 @@ h2 {
     left: 40%;
     top: 255%;
 }
+
+
+
+
